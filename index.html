@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img src="logo.png" class="logo"><span class="spo">Spotify</span></li>
+            <li class="home">Home</li>
+            <li class="about">About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <p class="copy">Best of NCS-No Copyright Sounds</p>
+        <div class="songlist">
+           <img src="covers/1.jpg" class="c1"><span class="war" >Warriyo - Mortals</span><span class="t">3:50<i id="0" class="far songItemPlay fa-play-circle"></i></span>
+        </div>
+        <div class="songlist">
+            <img src="covers/2.jpg" class="c1"><span class="war" >Alan Walker - Fade</span><span class="t">4:50<i id="1" class="far songItemPlay fa-play-circle"></i></span>
+         </div>
+         <div class="songlist">
+            <img src="covers/3.jpg" class="c1"><span class="war" >Cartoon - On & On</span><span class="t">2:50<i id='2' class="far songItemPlay fa-play-circle"></i></span>
+         </div>
+         <div class="songlist">
+            <img src="covers/4.jpg" class="c1"><span class="war" >Alan Walker - Spectre</span><span class="t">3:50<i id='3' class="far songItemPlay fa-play-circle"></i></span>
+         </div>
+         <div class="songlist">
+            <img src="covers/5.jpg" class="c1"><span class="war" >DEAF KEV - Invincible</span><span class="t">4:50<i id='4' class="far songItemPlay fa-play-circle"></i></span>
+         </div>
+         <div class="songlist">
+            <img src="covers/6.jpg" class="c1"><span class="war" >Cartoon - Why We Lose</span><span class="t">3:00<i id='5' class="far songItemPlay fa-play-circle"></i></span>
+         </div>
+         <div class="songlist">
+            <img src="covers/7.jpg" class="c1"><span class="war" >Janji - Heroes Tonight</span><span class="t">3:50<i id='6' class="far songItemPlay fa-play-circle"></i></span>
+         </div>
+         <div class="songlist">
+            <img src="covers/8.jpg" class="c1"><span class="war" >Disfigure - Blank</span><span class="t">3:50<i id='7' class="far songItemPlay fa-play-circle"></i></span>
+         </div>
+         <div class="songlist">
+            <img src="covers/9.jpg" class="c1"><span class="war" >Electro-Light - Symbolism</span><span class="t">3:50<i id='8' class="far songItemPlay fa-play-circle"></i></span>
+         </div>
+         <div class="songlist">
+            <img src="covers/10.jpg" class="c1"><span class="war" >Electronomia - Sky High</span><span class="t">2:50<i id='9' class="far songItemPlay fa-play-circle"></i></span>
+         </div>
+    </div>
+    <div class="taskbar">
+        <span class="n" id="wa">Warriyo - Mortals</span>
+        <input type="range" min="0" max="100" value="0" class="progressbar" id="myprogressbar">
+        <img src="playing.gif" class="play" id="pla">
+        <i class="fas fa-2x fa-step-backward" id="back"></i>
+        <i class="far fa-2x fa-play-circle" id="masterplay"></i>
+        <i class="fas fa-2x fa-step-forward" id="for"></i>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
